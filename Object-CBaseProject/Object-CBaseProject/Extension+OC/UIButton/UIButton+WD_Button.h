@@ -25,4 +25,17 @@ typedef NS_ENUM(NSUInteger, MKButtonEdgeInsetsStyle) {
 - (void)layoutButtonWithEdgeInsetsStyle:(MKButtonEdgeInsetsStyle)style
                         imageTitleSpace:(CGFloat)space;
 
+
+/**
+ 创建一个Customer的Button
+
+ @param title 标题
+ @param corlorString 颜色 @"#ffffff"
+ @param font 字体大小  12
+ @return UIButton
+ */
++ (UIButton *)buttonWithTitle:(NSString *)title titleColor:(NSString *)corlorString titleFont:(CGFloat)font;
+
+
+
 @end

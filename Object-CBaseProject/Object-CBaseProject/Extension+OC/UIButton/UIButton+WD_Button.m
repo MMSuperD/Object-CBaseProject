@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+WD_Button.h"
+#import "UIColor+ZFBAddition.h"
 
 @implementation UIButton (WD_Button)
 
@@ -78,6 +79,14 @@
     // 4. 赋值
     self.titleEdgeInsets = labelEdgeInsets;
     self.imageEdgeInsets = imageEdgeInsets;
+}
+
++ (UIButton *)buttonWithTitle:(NSString *)title titleColor:(NSString *)colorString titleFont:(CGFloat)font {
+    UIButton *btn = [UIButton buttonWithType:0];
+    [btn setTitle:title forState:UIControlStateNormal];
+    [btn.titleLabel setFont:[UIFont systemFontOfSize:font]];
+    [btn setTitleColor:[UIColor colorWithHexString:colorString] forState:UIControlStateNormal];
+    return btn;
 }
 
 @end
