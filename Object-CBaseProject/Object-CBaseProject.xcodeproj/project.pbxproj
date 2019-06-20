@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52E07B2A22BB2FDC00E02EAD /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E07B2922BB2FDC00E02EAD /* NSDictionary+JSON.m */; };
+		52E07B2E22BB30A000E02EAD /* UIWindow+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E07B2D22BB30A000E02EAD /* UIWindow+ViewController.m */; };
 		7A6984F022446934004BF977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6984EF22446934004BF977 /* AppDelegate.m */; };
 		7A6984F322446934004BF977 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6984F222446934004BF977 /* ViewController.m */; };
 		7A6984F622446934004BF977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6984F422446934004BF977 /* Main.storyboard */; };
@@ -69,6 +71,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52E07B2822BB2FDC00E02EAD /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		52E07B2922BB2FDC00E02EAD /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		52E07B2C22BB30A000E02EAD /* UIWindow+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ViewController.h"; sourceTree = "<group>"; };
+		52E07B2D22BB30A000E02EAD /* UIWindow+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ViewController.m"; sourceTree = "<group>"; };
 		7A6984EB22446934004BF977 /* Object-CBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object-CBaseProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6984EE22446934004BF977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A6984EF22446934004BF977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +185,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52E07B2722BB2F9700E02EAD /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				52E07B2822BB2FDC00E02EAD /* NSDictionary+JSON.h */,
+				52E07B2922BB2FDC00E02EAD /* NSDictionary+JSON.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		52E07B2B22BB305900E02EAD /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				52E07B2C22BB30A000E02EAD /* UIWindow+ViewController.h */,
+				52E07B2D22BB30A000E02EAD /* UIWindow+ViewController.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
 		7A6984E222446934004BF977 = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +261,8 @@
 		7A698520224469ED004BF977 /* Extension+OC */ = {
 			isa = PBXGroup;
 			children = (
+				52E07B2B22BB305900E02EAD /* UIWindow */,
+				52E07B2722BB2F9700E02EAD /* NSDictionary */,
 				7A698521224469ED004BF977 /* Aspects */,
 				7A698524224469ED004BF977 /* helpers */,
 				7A698529224469ED004BF977 /* NSArray */,
@@ -613,6 +639,7 @@
 				7A698596224469EE004BF977 /* UIImage+Extension.m in Sources */,
 				7A698598224469EE004BF977 /* UILabel+HMExtention.m in Sources */,
 				7A69858E224469EE004BF977 /* UIViewController+TTPopupView.m in Sources */,
+				52E07B2E22BB30A000E02EAD /* UIWindow+ViewController.m in Sources */,
 				7A69858C224469EE004BF977 /* TTPopupView.m in Sources */,
 				7A6984FE22446934004BF977 /* main.m in Sources */,
 				7A69859B224469EE004BF977 /* UIView+PPFFindNavigationController.m in Sources */,
@@ -624,6 +651,7 @@
 				7A69859A224469EE004BF977 /* UIView+CN.m in Sources */,
 				7A69859C224469EE004BF977 /* UIView+WP.m in Sources */,
 				7A698584224469EE004BF977 /* NSObject+ConversionJson.m in Sources */,
+				52E07B2A22BB2FDC00E02EAD /* NSDictionary+JSON.m in Sources */,
 				7A6984F022446934004BF977 /* AppDelegate.m in Sources */,
 				7A698590224469EE004BF977 /* SSKeychain.m in Sources */,
 				7A69857B224469ED004BF977 /* Aspects.m in Sources */,
