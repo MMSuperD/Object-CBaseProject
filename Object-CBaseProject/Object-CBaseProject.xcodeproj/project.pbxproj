@@ -71,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52AEA2B622BC85F60045C8C4 /* Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
 		52E07B2822BB2FDC00E02EAD /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
 		52E07B2922BB2FDC00E02EAD /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		52E07B2C22BB30A000E02EAD /* UIWindow+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ViewController.h"; sourceTree = "<group>"; };
@@ -185,6 +186,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52AEA2B522BC85B80045C8C4 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				52AEA2B622BC85F60045C8C4 /* Reader.h */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
 		52E07B2722BB2F9700E02EAD /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +235,7 @@
 		7A6984ED22446934004BF977 /* Object-CBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				52AEA2B522BC85B80045C8C4 /* Reader */,
 				7A698520224469ED004BF977 /* Extension+OC */,
 				7A6984EE22446934004BF977 /* AppDelegate.h */,
 				7A6984EF22446934004BF977 /* AppDelegate.m */,
